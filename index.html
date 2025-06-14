@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درجات أعمال السنة</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>عرض درجات أعمال السنة</h1>
+        <input type="text" id="studentId" placeholder="أدخل رقم القيد">
+        <button id="searchBtn">بحث</button>
+        <div id="result"></div>
+
+        <h2>لوحة التحكم</h2>
+        <input type="file" id="fileInput" accept=".xlsx, .xls">
+        <button id="uploadBtn">رفع ملف Excel</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
